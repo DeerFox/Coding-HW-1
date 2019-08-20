@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     let message = "Welcome to Hogwartz!"
     
     override func viewDidLoad() {
+        print(reverse(text: "stressed"))
+        func reverse(text: String) -> String {
+            return String(text.reversed())
+        }
         super.viewDidLoad()
         print(message)
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,4 +24,3 @@ class ViewController: UIViewController {
 
 
 }
-
